@@ -9,7 +9,7 @@ import Home from './pages/Home.jsx'
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
 		<Navbar />
-		<main className='px-[15%] text-gray-700 bg-gray-50 antialiased font-inter'>
+		<main className='px-[15%] text-gray-700 bg-gray-50 antialiased font-inter leading-[1.5]'>
 			<Home />
 		</main>
 	</StrictMode>,

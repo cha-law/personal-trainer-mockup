@@ -42,7 +42,7 @@ export default function Navbar() {
                         <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2">Services</a>
                         <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2">Pricing</a>
                     </div>
-                    <Button content="Get in touch" bg="text-gray-200 bg-indigo-800 hover:bg-indigo-900" />
+                    <Button content="Get in touch" bg="text-gray-200 bg-red-900 hover:bg-red-950" />
                 </div>
             </div>
         </nav>
