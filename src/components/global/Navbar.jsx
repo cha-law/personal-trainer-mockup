@@ -39,8 +39,8 @@ export default function Navbar() {
                 <div className="flex gap-16 place-items-center">
                     <div className="flex gap-8">
                         <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2">Home</a>
-                        <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2">Services</a>
-                        <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2">Pricing</a>
+                        <a href="/services" className="font-medium hover:text-gray-500 transition delay-0.2">Services</a>
+                        <a href="/team" className="font-medium hover:text-gray-500 transition delay-0.2">Our Team</a>
                     </div>
                     <Button content="Get in touch" bg="text-gray-200 bg-red-900 hover:bg-red-950" />
                 </div>
