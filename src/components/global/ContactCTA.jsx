@@ -10,7 +10,7 @@ export default function ContactCTA() {
                     <h1 className="text-4xl font-bold text-white">Get In Touch</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div className="flex gap-2">
-                        <Button content="Contact us" bg="text-red-950 bg-gray-100 hover:bg-gray-300" />
+                        <Button link="/contact" content="Contact us" bg="text-red-950 bg-gray-100 hover:bg-gray-300" />
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ export default function Services() {
         <section className="flex flex-col gap-2 place-items-center text-center py-20">
             <h1 className="text-4xl font-bold text-red-950">What I offer</h1>
             <p className="max-w-150">I offer a range of personalised services, from creating customized workout plans to working with you and helping you achieve your goals</p>
-            <Button content="See my services" bg="text-gray-200 bg-red-900 hover:bg-red-950 mb-8" />
+            <Button link="/services" content="See my services" bg="text-gray-200 bg-red-900 hover:bg-red-950 mb-8" />
 
             <div className="flex flex-wrap gap-12 place-content-center">
                 <div className="flex gap-8 shadow-lg border-solid border-1 border-gray-400 p-8 rounded-md text-start max-w-120">
