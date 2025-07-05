@@ -14,7 +14,7 @@ export default function Hero() {
                     
                 </div>
 
-                <img src="" alt="coach-picture" className="bg-gray-500 w-[40%] aspect-square" />
+                <div className="bg-gray-500 w-[40%] aspect-square object-cover rounded-t-full faded-image" />
             </div>
         </section>
     )

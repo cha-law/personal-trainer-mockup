@@ -4,7 +4,7 @@ export default function ContactCTA() {
     return (
         <section className="py-20">
             <div className="flex flex-col gap-y-12 lg:flex-row place-items-center place-content-between bg-red-980 text-gray-100 text-wrap rounded-xl p-20 shadow-2xl">
-                <img src="" alt="coach-picture" className="bg-gray-500 w-[40%] aspect-square" />
+                <img src="pt-coach2.jpg" alt="coach-picture" className="bg-gray-500 w-[40%] aspect-square object-cover" />
 
                 <div className="flex flex-col place-content-center gap-4 lg:w-[50%]">
                     <h1 className="text-4xl font-bold text-white">Get In Touch</h1>

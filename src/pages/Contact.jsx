@@ -4,12 +4,12 @@ export default function Contact() {
             <h1 className="font-bold text-4xl">Get in Touch</h1>
             <p>Still unsure? Feel free to contact us and ask any questions!</p>
 
-            <div className="flex gap-8 mt-10">
+            <div className="flex flex-col md:flex-row gap-8 mt-10">
                 <div className="flex flex-col place-items-start">
                     <h2 className="font-semibold text-xl">Want to contact us directly?</h2>
                     <p className="text-gray-600 mb-5">You can use one of the options below to contact us directly.</p>
 
-                    <div className="flex gap-4 mb-2">
+                    <div className="flex gap-4 mb-4">
                         <svg className="border-solid border-1 border-gray-400 rounded-md p-4 w-16 fill-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>email-outline</title><path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" /></svg>
                         <div className="flex flex-col place-content-center">
                             <h3>Email Address:</h3>
@@ -28,9 +28,9 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="w-[1px] bg-gray-400"></div>
+                <div className="w-[1px] bg-gray-400 invisible md:visible"></div>
 
-                <form action="#" className="flex flex-col gap-4 w-full max-w-md">
+                <form action="#" className="flex flex-col gap-4.5 w-full max-w-md">
                     <div>
                         <label htmlFor="email" className="font-medium">Email Address: <span className="text-xl text-red-800">*</span></label>
                         <input type="email" id="email" name="email" placeholder="example@gmail.com" className="mt-1 w-full p-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-red-950" required />

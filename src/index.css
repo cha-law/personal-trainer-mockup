@@ -9,3 +9,10 @@
     --font-inter: "Inter", sans-serif;
     --color-red-980: oklch(0.2029 0.0518 26.042);
 }
+
+.faded-image {
+    background-image: url('pt-coach.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 24px 24px var(--color-red-980) inset
+}

@@ -7,7 +7,7 @@ export default function About() {
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <img src="/src/assets/images/pt-dumbbell.jpg" alt="trainer-photo" className="bg-gray-500 w-[70%] lg:w-[40%] aspect-square shadow-lg rounded-lg object-cover" />
+            <img src="pt-dumbbell.jpg" alt="trainer-photo" className="bg-gray-500 w-[70%] lg:w-[40%] aspect-square shadow-lg rounded-lg object-cover" />
         </section>
     )
 }
