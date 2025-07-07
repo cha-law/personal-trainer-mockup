@@ -1,4 +1,5 @@
 import Button from "../global/Button"
+import ScrollInto from "../global/ScrollInto";
 
 export default function Hero() {
     return (
@@ -9,7 +10,7 @@ export default function Hero() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div className="flex gap-2">
                         <Button link="/contact" content="Get in touch" bg="text-red-950 bg-gray-100 hover:bg-gray-300" />
-                        <Button link="#" content="Learn more" bg="text-gray-100 hover:bg-red-900 border-solid border-1 border-gray-100" />
+                        <ScrollInto element="services" content="Learn more" bg="text-gray-100 hover:bg-red-900 border-solid border-1 border-gray-100" />
                     </div>
                     
                 </div>

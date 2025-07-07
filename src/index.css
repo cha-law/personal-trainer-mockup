@@ -10,6 +10,10 @@
     --color-red-980: oklch(0.2029 0.0518 26.042);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .faded-image {
     background-image: url('pt-coach.jpg');
     background-size: cover;

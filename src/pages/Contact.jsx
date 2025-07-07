@@ -37,7 +37,7 @@ export default function Contact() {
                     </div>
                     <div>
                         <label htmlFor="number" className="font-medium">Phone Number: <span className="text-xl text-red-800">*</span></label>
-                        <input type="number" id="number" name="number" placeholder="05432 567890" className="mt-1 w-full p-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-red-950" required />
+                        <input type="tel" id="number" name="number" placeholder="05432 567890" className="mt-1 w-full p-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-red-950" required />
                     </div>
                     <div>
                         <label htmlFor="name" className="font-medium">Full Name: <span className="text-xl text-red-800">*</span></label>
