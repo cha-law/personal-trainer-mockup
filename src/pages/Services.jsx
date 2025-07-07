@@ -1,6 +1,6 @@
 export default function Services() {
     return (
-        <section className="py-20 flex  flex-col place-items-center gap-2">
+        <section className="py-20 flex flex-col place-items-center gap-2">
             <h1 className="font-bold text-4xl">Our Services</h1>
             <p>We offer a range of services to suit your personal needs and goals.</p>
 

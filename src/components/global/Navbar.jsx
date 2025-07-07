@@ -4,18 +4,18 @@ export default function Navbar() {
     return (
         <nav className="px-[15%] py-4 bg-gray-100">
             <div className="flex place-content-between">
-                <div className="flex gap-8">
-                    <div className="flex gap-2">
+                <div className="flex flex-wrap gap-x-8 gap-y-2">
+                    <div className="flex place-items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 fill-gray-700" viewBox="0 0 24 24"><title>email-outline</title>
                             <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
                         </svg>
                         <p>trainer@email.com</p>
                     </div>
 
-                    <div className="flex gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 fill-gray-700" viewBox="0 0 24 24"><title>phone</title>
-                        <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
-                    </svg>
+                    <div className="flex place-items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 fill-gray-700" viewBox="0 0 24 24"><title>phone</title>
+                            <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                        </svg>
                         <p>(+44) 54321 567890</p>
                     </div>
                 </div>
@@ -37,12 +37,15 @@ export default function Navbar() {
                 </svg>
 
                 <div className="flex gap-16 place-items-center">
-                    <div className="flex gap-8">
-                        <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2">Home</a>
-                        <a href="/services" className="font-medium hover:text-gray-500 transition delay-0.2">Services</a>
-                        <a href="/team" className="font-medium hover:text-gray-500 transition delay-0.2">Our Team</a>
+                    <div className="flex gap-8 collapse lg:visible">
+                        <a href="/" className="font-medium hover:text-gray-500 transition delay-0.2 hidden lg:inline">Home</a>
+                        <a href="/services" className="font-medium hover:text-gray-500 transition delay-0.2 hidden lg:inline">Services</a>
+                        <a href="/team" className="font-medium hover:text-gray-500 transition delay-0.2 hidden lg:inline">Our Team</a>
                     </div>
-                    <Button link="/contact" content="Get in touch" bg="text-gray-200 bg-red-900 hover:bg-red-950" />
+                    <Button link="/contact" content="Get in touch" bg="text-gray-200 bg-red-900 hover:bg-red-950 hidden lg:inline" />
+                    <button className="inline lg:hidden">
+                        <svg className="w-10 fill-gray-700 hover:fill-gray-500 trantion duration-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>menu</title><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+                    </button>
                 </div>
             </div>
         </nav>

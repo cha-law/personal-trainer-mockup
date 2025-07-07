@@ -15,7 +15,7 @@ import Contact from './pages/Contact.jsx';
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
 		<Navbar />
-		<main className='px-[5%] flex flex-col place-content-center w-[100%] md:px-[15%] text-gray-700 bg-gray-50 antialiased font-inter leading-[1.5]'>
+		<main className='px-[8%] flex flex-col place-content-center w-[100%] lg:px-[15%] text-gray-700 bg-gray-50 antialiased font-inter leading-[1.5]'>
 			<Router>
 				<Routes>
 					<Route exact path="*" element={<NotFound />} />
