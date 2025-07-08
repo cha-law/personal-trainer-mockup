@@ -14,7 +14,7 @@ export default function Hero() {
                     </div>  
                 </div>
 
-                <div className="bg-gray-500 min-h-50 md:min-h-115 aspect-square object-cover rounded-t-full faded-image" />
+                <div className="min-h-50 md:min-h-115 aspect-square object-cover rounded-t-full faded-image" />
             </div>
         </section>
     )

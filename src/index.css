@@ -15,7 +15,7 @@ html {
 }
 
 .faded-image {
-    background-image: url('pt-coach.jpg');
+    background-image: url('../pt-coach.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 24px 24px var(--color-red-980) inset
