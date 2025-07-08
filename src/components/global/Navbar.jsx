@@ -44,7 +44,7 @@ export default function Navbar() {
                     </div>
                     <Button link="/contact" content="Get in touch" bg="text-gray-200 bg-red-900 hover:bg-red-950 hidden lg:inline" />
                     <button className="inline lg:hidden">
-                        <svg className="w-10 fill-gray-700 hover:fill-gray-500 trantion duration-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>menu</title><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+                        <svg className="w-10 fill-gray-700 hover:fill-gray-500 trantion duration-200 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>menu</title><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
                     </button>
                 </div>
             </div>

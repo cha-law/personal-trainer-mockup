@@ -1,6 +1,6 @@
 export default function Services() {
     return (
-        <section className="py-20 flex flex-col place-items-center gap-2">
+        <section className="py-28 flex flex-col place-items-center gap-2">
             <h1 className="font-bold text-4xl">Our Services</h1>
             <p>We offer a range of services to suit your personal needs and goals.</p>
 
@@ -31,7 +31,7 @@ export default function Services() {
                             <p>24/7 support.</p>
                         </li>
                     </ul>
-                    <a className="mt-4 p-4 border border-gray-400 text-gray-600 w-full text-center rounded-md cursor-pointer hover:bg-red-100 transition duration-200">Contact us</a>
+                    <a href="/contact" className="mt-4 p-4 border border-gray-400 text-gray-600 w-full text-center rounded-md cursor-pointer hover:bg-red-100 transition duration-200">Contact us</a>
                 </div>
 
                 <div className="flex flex-col max-w-100 gap-2 p-6 border border-gray-300 rounded-md shadow-md hover:shadow-xl transition-shadow duration-200">
@@ -60,7 +60,7 @@ export default function Services() {
                             <p>24/7 support.</p>
                         </li>
                     </ul>
-                    <a className="mt-4 p-4 border border-gray-400 text-gray-600 w-full text-center rounded-md cursor-pointer hover:bg-red-100 transition duration-200">Contact us</a>
+                    <a href="/contact" className="mt-4 p-4 border border-gray-400 text-gray-600 w-full text-center rounded-md cursor-pointer hover:bg-red-100 transition duration-200">Contact us</a>
                 </div>
 
                 <div className="flex flex-col max-w-100 gap-2 p-6 border border-gray-300 rounded-md shadow-md hover:shadow-xl transition-shadow duration-200">
@@ -89,7 +89,7 @@ export default function Services() {
                             <p>24/7 support.</p>
                         </li>
                     </ul>
-                    <a className="mt-4 p-4 border border-gray-400 text-gray-600 w-full text-center rounded-md cursor-pointer hover:bg-red-100 transition duration-200">Contact us</a>
+                    <a href="/contact" className="mt-4 p-4 border border-gray-400 text-gray-600 w-full text-center rounded-md cursor-pointer hover:bg-red-100 transition duration-200">Contact us</a>
                 </div>
             </div>
         </section>

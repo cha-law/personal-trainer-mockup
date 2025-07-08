@@ -8,7 +8,7 @@ import Footer from "./components/global/Footer.jsx";
 
 import NotFound from './pages/NotFound.jsx';
 import Home from './pages/Home.jsx';
-import Services from './pages/Services.jsx';
+import Services from './pages/ServicesPage.jsx';
 import Team from './pages/Team.jsx';
 import Contact from './pages/Contact.jsx';
 

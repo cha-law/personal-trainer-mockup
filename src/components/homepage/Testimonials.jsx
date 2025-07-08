@@ -39,8 +39,8 @@ export default function Testimonials() {
 
     return (
         <section className="flex w-[100%] flex-col gap-8 place-items-center text-center py-20">
-            <h1 className="text-4xl font-bold text-red-950">What my clients have to say</h1>
-            <div>
+            <h1 className="text-4xl font-bold text-red-950">What our clients have to say</h1>
+            <div className="w-full">
                 <div className="flex place-items-center flex-col sm:flex-row gap-4">
                     <div onClick={() => slide(-1)} id="left-slider" className="p-2 rounded-full h-fit aspect-square border-solid border-1 border-red-800 hover:bg-red-200 transition delay-0.2s cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" className="fill-red-800 w-6" viewBox="0 0 24 24"><title>arrow-left-thin</title><path d="M10.05 16.94V12.94H18.97L19 10.93H10.05V6.94L5.05 11.94Z" /></svg>
