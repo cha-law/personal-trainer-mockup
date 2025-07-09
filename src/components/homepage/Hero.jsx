@@ -3,7 +3,7 @@ import ScrollInto from "../global/ScrollInto";
 
 export default function Hero() {
     return (
-        <section className="px-5 py-20 h-150 flex place-items-center place-content-center text-gray-100 text-wrap bg-[url('gym-backdrop.jpg')] mix-blend-darken bg-cover bg-no-repeat bg-center bg-fixed">
+        <section className="px-5 py-20 h-150 flex place-items-center place-content-center text-gray-100 text-wrap bg-[url('../gym-backdrop.jpg')] mix-blend-darken bg-cover bg-no-repeat bg-center bg-fixed">
             <div className="flex flex-col gap-y-6 p-10 bg-red-950/60 rounded-lg shadow-xl max-w-[600px] z-3 backdrop-blur-sm backdrop-sepia">
                 <h1 className="text-4xl font-bold text-white">Kickstart your fitness journey</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
