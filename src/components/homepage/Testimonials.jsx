@@ -38,7 +38,7 @@ export default function Testimonials() {
     );
 
     return (
-        <section className="flex w-[100%] flex-col gap-8 place-items-center text-center py-20">
+        <section className="px-[5%] lg:px-[10%] flex w-[100%] flex-col gap-8 place-items-center text-center py-20">
             <h1 className="text-4xl font-bold text-red-950">What our clients have to say</h1>
             <div className="w-full">
                 <div className="flex place-items-center flex-col sm:flex-row gap-4">

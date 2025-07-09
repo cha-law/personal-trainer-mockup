@@ -27,7 +27,7 @@ export default function Navbar() {
                 <a href="/contact" className="font-semibold hover:text-gray-700 transition delay-0.2 text-gray-100">Get in Touch</a>
             </div>
 
-            <nav className="px-[15%] py-4 bg-gray-100">
+            <nav className="px-[15%] py-4 bg-gray-100 shadow-sm">
                 <div className="flex place-content-between">
                     <div className="flex flex-wrap gap-x-8 gap-y-2">
                         <div className="flex place-items-center gap-2">

@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="py-20 flex  flex-col place-items-center gap-2">
+        <section className="px-[5%] lg:px-[10%] py-20 flex  flex-col place-items-center gap-2">
             <h1 className="font-bold text-4xl">Get in Touch</h1>
             <p>Still unsure? Feel free to contact us and ask any questions!</p>
 

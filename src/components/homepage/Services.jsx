@@ -2,7 +2,7 @@ import Button from "../global/Button"
 
 export default function Services() {
     return (
-        <section className="flex w-[100%] flex-col gap-2 place-items-center text-center py-20" id="services">
+        <section className="px-[5%] lg:px-[10%] flex w-[100%] flex-col gap-2 place-items-center text-center py-20" id="services">
             <h1 className="text-4xl font-bold text-red-950">What I offer</h1>
             <p className="max-w-150">I offer a range of personalised services, from creating customized workout plans to working with you and helping you achieve your goals</p>
             <Button link="/services" content="See my services" bg="text-gray-200 bg-red-900 hover:bg-red-950 mb-8" />

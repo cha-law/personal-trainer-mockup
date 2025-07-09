@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section className="flex flex-col lg:flex-row gap-16 place-content-between place-items-center py-20">
+        <section className="px-[5%] lg:px-[10%] flex flex-col lg:flex-row gap-16 place-content-between place-items-center py-20">
             <div className="flex flex-col lg:w-[40%] gap-4">
                 <h1 className="text-4xl font-bold text-red-950 mb-2">About me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

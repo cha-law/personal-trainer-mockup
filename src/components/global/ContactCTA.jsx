@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function ContactCTA() {
     return (
-        <section className="py-20">
+        <section className="px-[5%] lg:px-[10%] py-20">
             <div className="flex flex-col gap-y-12 lg:flex-row place-items-center place-content-between bg-red-980 text-gray-100 text-wrap rounded-xl p-8 sm:p-20 shadow-2xl">
                 <img src="pt-coach2.jpg" alt="coach-picture" className="bg-gray-500 w-[40%] aspect-square object-cover" />
 

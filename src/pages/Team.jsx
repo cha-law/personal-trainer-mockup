@@ -1,6 +1,6 @@
 export default function Team() {
     return (
-        <section className="py-20 flex flex-col items-center">
+        <section className="px-[5%] lg:px-[10%] py-20 flex flex-col items-center">
             <h1 className="font-bold text-4xl">Meet the Team</h1>
             <p>Our team of dedicated professionals are here to help you achieve your fitness goals.</p>
             <div className="flex flex-col sm:flex-row gap-8 place-items-center max-w-140 p-8 border border-gray-300 rounded-md shadow-md mt-8">
