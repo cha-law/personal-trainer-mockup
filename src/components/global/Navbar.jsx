@@ -6,6 +6,7 @@ export default function Navbar() {
 
         document.getElementById("menu-sidebar").classList.add("opacity-90");
         document.getElementById("menu-sidebar").classList.remove("opacity-0");
+        document.getElementById("menu-sidebar").classList.add("px-10");
     };
 
     function closeMenu() {
@@ -13,11 +14,12 @@ export default function Navbar() {
 
         document.getElementById("menu-sidebar").classList.add("opacity-0");
         document.getElementById("menu-sidebar").classList.remove("opacity-90");
+        document.getElementById("menu-sidebar").classList.remove("px-10");
     };
 
     return (
         <>
-            <div id="menu-sidebar" className="flex flex-col gap-2 w-0 opacity-0 px-10 py-20 h-screen fixed bg-neutral-900 bg-opacity-50 z-2 transition-all overflow-hidden duration-400 ease-out right-0">
+            <div id="menu-sidebar" className="flex flex-col gap-2 w-0 opacity-0 py-20 h-screen fixed bg-neutral-900 bg-opacity-50 z-10 transition-all overflow-hidden duration-400 ease-out right-0">
                 <button onClick={closeMenu}><svg className="cursor-pointer fill-gray-100 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>close</title><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg></button>
                 <a href="/" className="font-semibold hover:text-gray-700 transition delay-0.2 text-gray-100">Home</a>
                 <a href="/services" className="font-semibold hover:text-gray-700 transition delay-0.2 text-gray-100">Services</a>
@@ -66,7 +68,7 @@ export default function Navbar() {
                             <a href="/team" className="font-medium hover:text-gray-500 transition delay-0.2 hidden lg:inline">Our Team</a>
                         </div>
                         <Button link="/contact" content="Get in touch" bg="text-gray-200 bg-red-900 hover:bg-red-950 hidden lg:inline" />
-                        <button onClick={openMenu} className="inline lg:hidden">
+                        <button onClick={openMenu} className="inline lg:hidden w-10 z-5">
                             <svg className="w-10 fill-gray-700 hover:fill-gray-500 trantion duration-200 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>menu</title><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
                         </button>
                     </div>
