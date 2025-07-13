@@ -52,7 +52,7 @@ export default function Testimonials() {
                         </div>
                     </div>
 
-                    <div onClick={() => slide(1)} id="right-slider" className="p-2 rounded-full h-fit border-solid border-1 border-red-800 hover:bg-red-200 transition duration-[10s] cursor-pointer">
+                    <div onClick={() => slide(1)} id="right-slider" className="p-2 rounded-full h-fit border-solid border-1 border-red-800 hover:bg-red-200 transition delay-0.2s cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" className="fill-red-800 w-6" viewBox="0 0 24 24"><title>arrow-right-thin</title><path d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" /></svg>
                     </div>
                 </div>
